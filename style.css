@@ -1,0 +1,128 @@
+
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+body{
+    background-image: url("Imágenes/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-image: url("Imágenes/alura-one.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: none;
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 100%;
+}
+
+
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.seccion1 {
+    padding-top: 50px;
+
+}
+
+.textarea {
+    
+    background-image: url("Imágenes/Screen.jpg");
+    background-size: cover;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    display: flex;
+    width: 1000px;
+    height: 600px;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.mensaje{
+    background-image: url("Imágenes/Código2.png");
+    background-size: cover;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.desencriptar {
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 407px;
+    position: absolute;
+    width: 334px;
+}
+
+.informacion{
+    color: #0A3871;
+    font-size: 30px;
+}
+
+footer {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    text-align: right; 
+       
+}
